@@ -10,7 +10,7 @@ joystick = pygame.joystick.Joystick(0)
 joystick.init()
 
 #Initializes Joystick
-
+#hello
 robot = Robot(left=("BOARD18","BOARD16"), right=("BOARD11","BOARD13")) #initializes robot
 
 axis0 = joystick.get_axis(0)
@@ -48,3 +48,10 @@ while True:
         rightpwm.value = 0
         leftpwm.value = 0
     print(axis1)
+    
+    
+    
+        
+    
+
+
