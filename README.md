@@ -10,4 +10,4 @@ A Raspberry Pi 3b was used to control the motordriver using gpio zero library an
 
 On startup, "code2code" was programed to run to allow the user to click a button allowing the master "Testcode" to run. This allowed for the playstaion  controller to connect to the Raspberry pi via bluetooth
 
-A camera with a 2 axis gimble was postioned in the back allowing for movement in 2 axis and picture to be taken from a button on the controller
+A camera with a 2 axis gimble was postioned in the back allowing for movement in 2 axis, and picture to be taken from a button on the controller
