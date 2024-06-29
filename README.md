@@ -1,13 +1,13 @@
 # Mini-cybertruck
 
-This project involed myself making a mini foamboard cyber truck that was driven by 4 motors on a acrylic chassis
+This project involved creating a mini foamboard Cybertruck driven by four motors on an acrylic chassis.
 
-Power was supplied by a 3S lipo battery for the motors and a 5v portable battery bank for the Raspberry Pi 3b
+The motors were powered by a 3S LiPo battery, while a 5V portable battery bank supplied power to a Raspberry Pi 3b.
 
-Motors were controlled by 2 L293D motor drivers allowing for each motor to have it's own control
+Motor control was achieved through two L293D motor drivers, allowing individual control for each motor.
 
-A Raspberry Pi 3b was used to control the motordriver using gpio zero library and to receive input from a Playstation 4 controller
+A Raspberry Pi 3b managed the motor drivers using the GPIO Zero library and received input from a PlayStation 4 controller.
 
-On startup, "code2code" was programed to run to allow the user to click a button allowing the master "Testcode" to run. This allowed for the playstaion  controller to connect to the Raspberry pi via bluetooth
+On startup, a program named "code2code" was executed, enabling the user to click a button that triggered the main "Testcode" program. This allowed time for the PlayStation 4 controller to connect to the Raspberry Pi via Bluetooth.
 
-A camera with a 2 axis gimble was postioned in the back allowing for movement in 2 axis, and picture to be taken from a button on the controller
+A camera with a 2-axis gimbal was positioned at the rear, providing movement in two axes. The controller had a dedicated button for capturing pictures.
